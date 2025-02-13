@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: #f0f8ff; /* Optional: Background color for the page */
+}
+
+.weather {
+  padding: 40px;
+  border-radius: 10px;
+  background-image: linear-gradient(45deg, #89b6f0, #87CEEB);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-bar{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.search-bar input{
+  height:50px;
+  border:none;
+  outline: none;
+  border: none;
+  border-radius: 40px;
+  padding-left: 25px;
+  color: black;
+  background-color: azure;
+  font-size: 18px;
+}
+
+.search-icon {
+  width: 50px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: azure;
+  cursor: pointer;
+  margin-top: 20px; /* Move search button down by 10px */
+}
+
+/* Weather Icon Styling */
+.weather-icon {
+  display: flex;
+  justify-content: center; /* Horizontally center the icon */
+  align-items: center; /* Vertically center the icon */
+  height: 200px; /* Adjust height as needed */
+  margin-bottom: 20px; /* Add space between the icon and temperature text */
+}
+
+/* Weather Icon Font Size and Color */
+.weather-icon svg {
+  font-size: 100px; /* Make the icon bigger */
+  color: #00f; /* Set the icon color */
+}
+
+.temperature{
+  color: white;
+  font-size: 80px;
+  line-height: 1;
+}
+
+.location {
+  color: white;
+  font-size: 40px;
+}
+
+.weather-data{
+  width:100%;
+  margin-top: 40px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
